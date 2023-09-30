@@ -1,0 +1,1 @@
+var newspaper = 0;
