@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
+@import url('https://fonts.cdnfonts.com/css/black-family');
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Oswald:wght@500&display=swap');
 
 * {
@@ -24,7 +24,7 @@ header {
     justify-content: center;
     padding: 2rem;
     font-size: 4.5rem;
-    font-family: 'Grenze Gotisch', cursive;
+    font-family: 'IncisedBlackWide', sans-serif;
 }
 
 .border__top {
@@ -77,8 +77,8 @@ header {
 
 .first-text p {
     padding: 15px;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-align: center;
     border-bottom: 1.5px solid black;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
