@@ -5,16 +5,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: url('/assets/img/fundo.jpeg') no-repeat;
-    background-size: cover;
     background-blend-mode: color-dodge;
-    max-height: 100vh;
-    background-color: #d3c7b89d;
 }
 
 body {
     margin: 20px;
     border-radius: 20px;
+    max-height: 100vh;
+    background: url(/assets/img/fundo.jpg) no-repeat;
+    background-color: #f4aa50ae;
 }
 
 /* Top Details */
