@@ -14,6 +14,7 @@ body {
     max-height: 100vh;
     background: url(/assets/img/fundo.jpg) no-repeat;
     background-color: #f4aa50ae;
+    zoom: 46%;
 }
 
 /* Top Details */
@@ -49,6 +50,16 @@ header {
     text-align: center;
     margin-left: 2rem;
     font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 700px;
+}
+
+date, button {
+    padding: 5px;
+    font-size: 1.1rem;
 }
 
 /* End of Top Details */
