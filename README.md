@@ -10,23 +10,23 @@ Deploy: (EM BREVE)
 
 Youtube: (EM BREVE)
 
-## Sobre
+## About
+
+It´s a Back to the future inspired newpaper, The Hill Valley Telegraph. My idea is to create an online version of the infamous newspaper of this classic fiction movie.
+
+### Objectives
+
+To present my software developing skills that i learned from about 11 mounths of studying online.
+
+### Challenges
 
 (EM BREVE)
 
-### Objetivos
+### Conclusion
 
 (EM BREVE)
 
-### Desafio
-
-(EM BREVE)
-
-### Conclusão
-
-(EM BREVE)
-
-### Ferramentas Utilizadas
+### Tools
 
 - HTML
 - CSS
