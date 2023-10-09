@@ -111,15 +111,19 @@ a:link {
 
 .first-text {
   display: grid;
-  grid-template-columns: 15% 1500px;
+  margin: 0 auto;
+  grid-template-columns: 60% 980px;
 }
 
 .first-text p {
+  display: block;
+  position: relative;
+  right: 450px;
   padding: 15px;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   text-align: justify;
   border-bottom: 1.5px solid black;
-  margin-bottom: 0px;
+  margin-bottom: 180px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -156,25 +160,29 @@ a:link {
   width: 100%;
   display: grid;
   margin: 0 auto;
-  grid-template-columns: 60% 400px;  
+  grid-template-columns: 60% 660px;  
 }
 
 .second-text p {
   width: 100%;
-  display: flex;
-  align-items: flex-start;
+  display: block;
+  position: relative;
+  right: 250px;
   padding: 15px;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   text-align: justify;
   border-bottom: 1.5px solid black;
   margin-left: 100px;
-  margin-bottom: 0px;
+  margin-bottom: 140px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
 
 .second-text img {
-  width: 800px;
-  display: flex;
+  width: 650px;
+  display: block;
+  position: relative;
+  right: 50px;
+  padding: 5px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -182,3 +190,57 @@ a:link {
 }
 
 /* End of Second Text */
+
+/* Third Text */
+
+.container__3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 80px;
+  background-color: none;
+  font-family: 'Oswald', sans-serif; 
+}
+
+.front-page_3{}
+
+.third-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:  flex-start;
+  font-size: 5.2rem;
+}
+
+.third-text {
+  width: 100%;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 60% 400px;  
+}
+
+.third-text p {
+  width: 100%;
+  display: block;
+  position: relative;
+  right: 490px;
+  padding: 15px;
+  font-size: 1.7rem;
+  text-align: justify;
+  border-bottom: 1.5px solid black;
+  margin-bottom: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+.third-text img {
+  width: 450px;
+  height: 490px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 3px black;
+}
+
+/* End of Third Text */
