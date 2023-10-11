@@ -172,6 +172,10 @@ a:link {
   font-size: 5.2rem;
 }
 
+.front-page_2 .second-column p {
+  margin-right: 150px;
+}
+
 .second-text {
   width: 100%;
   display: grid;
@@ -183,7 +187,7 @@ a:link {
   width: 100%;
   display: block;
   position: relative;
-  right: 250px;
+  right: 260px;
   padding: 15px;
   font-size: 1.7rem;
   text-align: justify;
@@ -197,7 +201,7 @@ a:link {
   width: 650px;
   display: block;
   position: relative;
-  right: 50px;
+  right: 5px;
   padding: 5px;
   justify-content: center;
   align-items: center;
@@ -233,7 +237,7 @@ a:link {
   width: 100%;
   display: grid;
   margin: 0 auto;
-  grid-template-columns: 60% 400px;  
+  grid-template-columns: 60% 980px;  
 }
 
 .third-text p {
