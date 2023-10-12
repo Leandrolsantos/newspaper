@@ -15,42 +15,8 @@ body {
   max-height: 100vh;
   background: url(/assets/img/fundo.jpg) no-repeat;
   background-color: #f4aa50ae;
-  zoom: 32%;
+  zoom: 25%;
 }
-/* Lateral Navigation */
-
-.nav-bar_lateral {
-  width: 10%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.401);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.container-lateral {
-  display: grid;
-  grid-template-columns: 5fr 15%;
-  grid-template-areas: 10px;
-  gap: 10px;
-  padding-left: 320px;
-  padding-top: 100px;
-  font-size: 2rem;
-  border-bottom: 2px solid white;
-}
-
-.container-lateral, nav, ol {
-  display: grid;
-  grid-template-columns: 5fr 55%;
-  gap: 80px;
-  width: 100%;
-  font-size: 6rem;
-  padding: 10px;
-  border: 2px solid white;
-}
-
-/* End - Lateral Navigation */
 
 
 /* Top Details */
@@ -78,13 +44,9 @@ header {
   background-color: black;
 }
 
-.city {
-  margin-right: 10px;
-}
-
 .navigation, button {
   padding: 5px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   background: none;
   border: none;
   cursor: pointer;
@@ -125,10 +87,11 @@ a:link {
 
 /* News Page Block */
 #news__page {
-  display: block;
-  position: relative;
-  bottom: 800px;
-  left: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1130px;
+  padding: 50px;
 }
 /* End of News Page Block */
 
@@ -136,7 +99,6 @@ a:link {
 
 
 .container {
-  background: grey;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,12 +154,11 @@ a:link {
 /* Second Text */
 
 .container__2 {
-  background: grey;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
-  margin-left: 1100px;
+  margin-left: 1000px;
   padding-top: 5px;
   font-family: 'Oswald', sans-serif; 
 }
@@ -228,11 +189,11 @@ a:link {
   display: block;
   position: relative;
   right: 260px;
-  padding: 15px;
+  padding: 19px;
   font-size: 1.7rem;
   text-align: justify;
   border-bottom: 1.5px solid black;
-  margin-left: 100px;
+  margin-left: 150px;
   margin-bottom: 140px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
@@ -254,7 +215,6 @@ a:link {
 /* Third Text */
 
 .container__3 {
-  background: grey;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -278,7 +238,7 @@ a:link {
   width: 100%;
   display: grid;
   margin: 0 auto;
-  grid-template-columns: 60% 980px;  
+  grid-template-columns: 60% 900px;  
 }
 
 .third-text p {
@@ -291,6 +251,7 @@ a:link {
   text-align: justify;
   border-bottom: 1.5px solid black;
   margin-bottom: 400px;
+  margin-left: 160px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
 
