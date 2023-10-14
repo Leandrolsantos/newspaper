@@ -91,7 +91,7 @@ a:link {
   align-items: center;
   justify-content: center;
   margin-right: 1130px;
-  padding: 50px;
+  padding: 80px;
 }
 /* End of News Page Block */
 
@@ -170,7 +170,7 @@ a:link {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 5.2rem;
+  font-size: 5.6rem;
 }
 
 .front-page_2 .second-column p {
@@ -181,7 +181,7 @@ a:link {
   width: 100%;
   display: grid;
   margin: 0 auto;
-  grid-template-columns: 60% 660px;  
+  grid-template-columns: 61% 660px;  
 }
 
 .second-text p {

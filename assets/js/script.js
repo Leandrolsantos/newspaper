@@ -19,5 +19,5 @@ function typeWriter(elemento) {
     });
   }
 
-  const subtitulo = document.querySelector('p');
+  const subtitulo = document.querySelectorAll('p');
   typeWriter2(subtitulo);
