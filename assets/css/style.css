@@ -11,11 +11,10 @@
 body {
   width: 100%;
   margin: 0 auto;
-  border-radius: 20px;
   max-height: 100vh;
   background: url(/assets/img/fundo.jpg) no-repeat;
   background-color: #f4aa50ae;
-  zoom: 55%;
+  zoom: 50%;
 }
 
 
@@ -63,23 +62,29 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 700px;  
+  gap: 700px; 
 }
 
 button {
   color: black;
   transition: 500ms ease;
   font-weight: 600;
+  text-shadow: 2px 2px 3px black;
 }
 
 button:hover {
   transform: scale(1.1);
-  color: rgb(152, 246, 10);
+  color: hsl(105, 59%, 54%));
 }
 
 button,
 a:link {
   text-decoration: none;
+  color: none;
+}
+
+button, a:visited {
+  color: none;
 }
 
 
@@ -92,6 +97,7 @@ a:link {
   justify-content: center;
   margin-right: 1130px;
   padding: 80px;
+  border-left: 2px solid black;
 }
 /* End of News Page Block */
 
@@ -116,7 +122,7 @@ a:link {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 5.2rem; 
+  font-size: 5rem; 
 }
 
 .first-text {
@@ -135,6 +141,7 @@ a:link {
   border-bottom: 1.5px solid black;
   margin-bottom: 300px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 2px 2px 4px black;
 }
 
 .first-text img {
@@ -147,6 +154,7 @@ a:link {
   align-items: center;
   flex-direction: column;
   box-shadow: 2px 2px 3px black;
+  border: 3px solid white;
 }
 
 /* End of First Text */
@@ -170,7 +178,7 @@ a:link {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 5.6rem;
+  font-size: 4.8rem;
 }
 
 .second-text {
@@ -191,7 +199,8 @@ a:link {
   border-bottom: 1.5px solid black;
   margin-left: 150px;
   margin-bottom: 140px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;   
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  box-shadow: 2px 2px 4px black;  
 }
 
 .second-text img {
@@ -204,6 +213,7 @@ a:link {
   align-items: center;
   flex-direction: column;
   box-shadow: 2px 2px 3px black;
+  border: 3px solid white;
 }
 
 /* End of Second Text */
@@ -227,7 +237,7 @@ a:link {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 5.2rem;
+  font-size: 4rem;
 }
 
 .third-text {
@@ -248,7 +258,8 @@ a:link {
   border-bottom: 1.5px solid black;
   margin-bottom: 400px;
   margin-left: 160px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;   
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 2px 2px 4px black;   
 }
 
 .third-text img {
@@ -259,6 +270,7 @@ a:link {
   align-items: center;
   flex-direction: column;
   box-shadow: 2px 2px 3px black;
+  border: 8px solid white;
 }
 
 /* End of Third Text */
