@@ -74,7 +74,7 @@ button {
 
 button:hover {
   transform: scale(1.1);
-  color: hsl(105, 59%, 54%));
+  color: hsl(105, 59%, 54%);
 }
 
 button,
