@@ -26,22 +26,27 @@ header {
   align-items: center;
   justify-content: center;
   padding: 2rem;
+
   font-size: 4.5rem;
   font-family: 'IncisedBlackWide', sans-serif;
+  text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.544);
+  background: linear-gradient(rgba(242, 222, 192, 0.373), rgba(210, 208, 208, 0.678), rgba(255, 255, 255, 0.338));
 }
 
 .border__top {
-  border-top: 1.5px solid black;
+  border-top: 5px groove black;
   margin-top: 10px;
   width: 100%;
   background-color: black;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.608);
 }
 
 .border__bottom {
-  border-top: 1.5px solid black;
+  border-top: 5px groove black;
   margin-bottom: 10px;
   width: 100%;
   background-color: black;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.608);
 }
 
 .navigation, button {
@@ -70,7 +75,7 @@ button {
   color: black;
   transition: 500ms ease;
   font-weight: 600;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: 1px 1px 1.5px hsla(0, 0%, 0%, 0.845);
 }
 
 button:hover {
@@ -136,8 +141,8 @@ button, a:visited {
   display: block;
   position: relative;
   right: 450px;
-  padding: 15px;
-  font-size: 1.7rem;
+  padding: 35px;
+  font-size: 2rem;
   text-align: justify;
   border-bottom: 1.5px solid black;
   margin-bottom: 300px;
@@ -194,8 +199,8 @@ button, a:visited {
   display: block;
   position: relative;
   right: 260px;
-  padding: 19px;
-  font-size: 1.7rem;
+  padding: 35px;
+  font-size: 2rem;
   text-align: justify;
   border-bottom: 1.5px solid black;
   margin-left: 150px;
@@ -253,8 +258,8 @@ button, a:visited {
   display: block;
   position: relative;
   right: 490px;
-  padding: 15px;
-  font-size: 1.7rem;
+  padding: 35px;
+  font-size: 2rem;
   text-align: justify;
   border-bottom: 1.5px solid black;
   margin-bottom: 400px;
@@ -282,8 +287,16 @@ button, a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 150px;  
-}
+  margin-bottom: 150px;
+  padding: 50px;
+
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.629);
+  
+  border-top: 4px groove rgb(71, 70, 70);
+  background: linear-gradient(rgba(242, 222, 192, 0.536), rgba(210, 208, 208, 0.678), rgba(255, 255, 255, 0.338));
+  box-shadow: -1px -10px 10px rgba(0, 0, 0, 0.203);
+} 
 
 /* End of Footer */
 
@@ -307,11 +320,11 @@ button, a:visited {
   padding: 50px;
   margin: 300px;
 
-  border: 5px groove red;
+  border: 5px groove rgba(0, 0, 0, 0.889);
   border-radius: 50px 20px 50px 20px;
 
   background-color: rgba(210, 209, 209, 0.519);
-  box-shadow: inset 10px 10px 50px 20px rgba(0, 0, 0, 0.386);
+  box-shadow: 6px 6px 10px hsla(0, 0%, 12%, 0.73), inset 10px 10px 50px 20px rgba(0, 0, 0, 0.386);
   transition: 1.2s ease-in-out;
 }
 
@@ -320,25 +333,23 @@ button, a:visited {
   background: url(/assets/img/news.gif);
 }
 
-.button-home {
+.button-home button {
   width: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
 
   border: 2px solid black;
-  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px black;
 
   margin: 0 auto;
-  padding: 1px;
-  background-color: darkgray;
-}
-
-.button-home:link {
-  text-decoration: none;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
 }
 
 /* End of About Page */
