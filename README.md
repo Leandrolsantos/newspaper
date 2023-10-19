@@ -1,14 +1,14 @@
 # Newspaper
 
-![](./)
+![](./assets/img/1.png)
 
-![](./)
+![](./assets/img/2.png)
 
-![](./)
+![](./assets/img/3g.gif)
 
-Deploy: (EM BREVE)
+Deploy: https://newspaper-jade.vercel.app/
 
-Youtube: (EM BREVE)
+Youtube: https://youtu.be/1wlVe_Rzvko?si=0DzaoS4AlHGmWpXI
 
 ## About
 
