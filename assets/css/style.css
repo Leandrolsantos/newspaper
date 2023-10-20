@@ -34,7 +34,8 @@ header {
 }
 
 .border__top {
-  border-top: 5px groove black;
+  border-top: 15px groove;
+  border-bottom: 15px groove;
   margin-top: 10px;
   width: 100%;
   background-color: black;
@@ -42,7 +43,8 @@ header {
 }
 
 .border__bottom {
-  border-top: 5px groove black;
+  border-top: 5px groove;
+  border-bottom: 5px groove;
   margin-bottom: 10px;
   width: 100%;
   background-color: black;
