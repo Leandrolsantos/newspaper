@@ -283,6 +283,44 @@ button, a:visited {
 
 /* End of Third Text */
 
+/* Read more Button */
+
+.read-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 100px;
+  margin-top: 120px;
+  border: 3px groove black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.read-button_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 100px;
+  margin-top: 220px;
+  border: 3px groove black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.read-button_3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 100px;
+  margin-bottom: 55px;
+  border: 3px groove black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* End Read more button */
+
 /* Footer */
 
 .news-footer {
