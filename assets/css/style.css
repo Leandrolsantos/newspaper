@@ -276,7 +276,7 @@ button, a:visited {
   transition: 1s ease-in-out;  
 }
 
-.second-text p:hover {
+.third-text p:hover {
   transform: scale(1.5);
   background-color: rgb(255, 255, 255);
   backdrop-filter: grayscale(30%);
