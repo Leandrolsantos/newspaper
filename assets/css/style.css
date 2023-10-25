@@ -165,6 +165,12 @@ button, a:visited {
   flex-direction: column;
   box-shadow: 2px 2px 3px black;
   border: 3px solid white;
+  transition: 1s ease-in-out;
+}
+
+.first-text img:hover{
+  right: 100px;
+  transform: ;
 }
 /* End of First Text */
 
