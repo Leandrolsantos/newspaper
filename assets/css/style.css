@@ -169,8 +169,7 @@ button, a:visited {
 }
 
 .first-text img:hover{
-  right: 100px;
-  transform: ;
+  transform:rotateY(180deg);
 }
 /* End of First Text */
 
@@ -235,6 +234,11 @@ button, a:visited {
   flex-direction: column;
   box-shadow: 2px 2px 3px black;
   border: 3px solid white;
+  transition: 1s ease-in-out;
+}
+
+.second-text img:hover{
+  transform:rotateY(180deg);
 }
 /* End of Second Text */
 
@@ -297,6 +301,11 @@ button, a:visited {
   flex-direction: column;
   box-shadow: 2px 2px 3px black;
   border: 8px solid white;
+  transition: 1s ease-in-out;
+}
+
+.third-text img:hover{
+  transform:rotateY(180deg);
 }
 /* End of Third Text */
 
@@ -364,11 +373,11 @@ button, a:visited {
   margin-bottom: 150px;
   padding: 50px;
 
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.629);
   
   border-top: 4px groove rgb(71, 70, 70);
-  background: linear-gradient(rgba(242, 222, 192, 0.536), rgba(210, 208, 208, 0.678), rgba(255, 255, 255, 0.338));
+  background: linear-gradient(rgba(242, 222, 192, 0.051), rgba(210, 208, 208, 0.678), rgba(255, 255, 255, 0.338));
   box-shadow: -1px -10px 10px rgba(0, 0, 0, 0.203);
 } 
 /* End of Footer */
