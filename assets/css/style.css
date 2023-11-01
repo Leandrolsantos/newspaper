@@ -33,8 +33,8 @@ header {
 }
 
 .border__top {
-  border-top: 15px groove;
-  border-bottom: 9px groove;
+  border-top: 16px groove;
+  border-bottom: 10px groove;
   margin-top: 10px;
   width: 100%;
   background-color: black;
